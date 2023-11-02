@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+.loaders{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.loaders1 {
+    border: 5px solid red;
+    border-radius: 50%;
+    width: 5rem;
+    height: 50px;
+    border-top: 5px solid grey; 
+    animation: rotate 2s linear infinite;
+
+}
+@keyframes rotate {
+      from{
+        transform:rotate(0);
+      }
+      to{
+        transform:rotate(360 deg);
+      }
+}
