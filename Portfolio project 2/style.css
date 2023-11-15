@@ -1,0 +1,18 @@
+:root{
+    --brown:#860A35;
+    --yellow:#A6CF98;
+    --green:#A3B763;
+    --maroon:#872341;
+
+}
+html{
+   box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--yellow);
+}
