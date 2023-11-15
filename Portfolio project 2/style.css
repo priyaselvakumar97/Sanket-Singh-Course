@@ -3,6 +3,7 @@
     --yellow:#A6CF98;
     --green:#A3B763;
     --maroon:#872341;
+    --pastel:#F2D3D6;
 
 }
 html{
@@ -14,5 +15,81 @@ html{
 body{
     margin: 0;
     padding: 0;
+    background-color:var(--pastel);
+}
+#intro p{
+    font-size: 1.5rem;
+    color: var(--maroon);
+    line-height: 1.5;
+}
+.name span{
+    display: block;
+    line-height: 1.5;
+}
+.profile {
+    padding-bottom: 1rem;
+}
+.profile p{
+    font-weight: normal;
+    font-size: 3rem;
+    padding-bottom: 1rem+;
+}
+.intro{
+    padding-bottom: 5rem;
+}
+#experience ul{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+#experience li{
+    list-style-type: none;
+}
+#experience a{
+    color:black;
+}
+.hire{
+    width: 400px;
+    padding: 3rem 0;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.hire p:last-child{
+    margin-top: 3rem;
+}
+.footer{
+    margin-top: 1rem;
     background-color: var(--yellow);
+}
+h2{
+    font-size: 3.5rem;
+}
+nav{
+    font-size: 80%;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    
+}
+nav a:hover{
+    text-decoration:underline;
+    color:var(--maroon);
+    font-size: 1.2rem;
+}
+nav li:first-child{
+    flex-grow: 1;
 }
