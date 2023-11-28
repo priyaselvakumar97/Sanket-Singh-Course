@@ -1,0 +1,9 @@
+.productdetails-wrapper{
+    padding-top: 3rem;
+}
+.product-img{
+    flex-basis: 50%;
+}
+.product-img img{
+    width: 100%;
+}
