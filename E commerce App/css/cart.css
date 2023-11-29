@@ -41,6 +41,19 @@
 .order-details-product-quantity > div:first-child {
     margin-bottom: 0.5rem;
 }
-
-
-
+.price-details{
+    flex-basis: 30%;
+    margin-left: 2rem;
+    gap: 2rem;
+    position: sticky;
+    top: 10px;
+    align-self: flex-start;
+}
+.price-detail-box{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow:0px 1px 5px var(--light-gray);
+}
+.continue-shopping-btn{
+    color: white;
+}
